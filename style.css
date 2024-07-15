@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+
+.camera{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid red;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+nav{
+   display: inline-block;
+   text-align: center;
+   position: fixed;
+   width: 80%;
+   top:80px;
+    
+}
+
+a{
+    color: rgb(78, 10, 156);
+    font-size: 30px;
+    text-decoration: none;
+    padding: 15px;
+   
+}
+
+a:hover{
+    color: red;
+}
+
+.login{
+    background-color: red;
+    color: aliceblue;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    position: absolute;
+    right: 60px;
+    top: 70px;
+}
+.login:hover{
+    background-color: aliceblue;
+    color: red;
+}
+
+div{
+    margin: 30px;
+}
+
+.first{
+    font-size: 18px;
+    color: rgb(255, 0, 0);
+}
+
+h1{
+    color: aliceblue;
+    font-size: 60px;
+}
+.second{
+    color: aliceblue;
+    font-size:17px;
+}
+
+.user{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid red;
+    margin: 0;
+    padding: 0;
+ 
+}
+.third{
+    font-size: 18px;
+    display: inline;
+    color: aliceblue;
+}
+
+.learn{
+    width: 150px;
+    height: 60px;
+    background-color: rgba(255, 0, 0, 0.756);
+    color: aliceblue;
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.phone{
+    width: 700px;
+    height: 400px;
+    float: right;
+}
