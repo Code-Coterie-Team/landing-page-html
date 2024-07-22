@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body{
@@ -25,7 +27,7 @@ nav{
     
 }
 
-a{
+a:link{
     color: rgb(78, 10, 156);
     font-size: 30px;
     text-decoration: none;
@@ -33,9 +35,15 @@ a{
    
 }
 
+a:visited{}
+
+
 a:hover{
     color: red;
 }
+
+a:active{}
+
 
 .login{
     background-color: red;
@@ -57,7 +65,7 @@ div{
     margin: 30px;
 }
 
-.first{
+.firstparagraph{
     font-size: 18px;
     color: rgb(255, 0, 0);
 }
@@ -66,7 +74,7 @@ h1{
     color: aliceblue;
     font-size: 60px;
 }
-.second{
+.secondparagraph{
     color: aliceblue;
     font-size:17px;
 }
@@ -76,13 +84,12 @@ h1{
     height: 30px;
     border-radius: 50%;
     border: 2px solid red;
-    margin: 0;
-    padding: 0;
+    margin-top: 10px;
+ 
  
 }
-.third{
+.thirdparagraph{
     font-size: 18px;
-    display: inline;
     color: aliceblue;
 }
 
